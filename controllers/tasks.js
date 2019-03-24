@@ -4,7 +4,7 @@ module.exports = {
 
     async getAllTasks(req, res) {
         try {
-            let queryString = `SELECT id,start_time,end_time,description FROM user_${req.session.user.id};`
+            let queryString = `SELECT * FROM user_${req.session.user.id};`
             let result = await dbConnection.query(queryString);
             res.status(200).json(result.rows);
         } catch(e) {
