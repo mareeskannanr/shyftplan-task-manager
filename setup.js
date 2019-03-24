@@ -32,10 +32,10 @@ module.exports = {
 
     async getDBConnection() {
         let client = new Client({
-            connectionString: process.env.HEROKU_POSTGRESQL_GREEN_URL || (config.DB_CONNECTION_STRING + config.POSTGRES)
+            connectionString: process.env.DATABASE_URL || (config.DB_CONNECTION_STRING + config.POSTGRES)
         });
 
-        console.log(process.env.HEROKU_POSTGRESQL_BLUE_URL);
+        console.log(process.env.DATABASE_URL);
         console.log('*********************');
         for(let prop in process.env) {
             console.log(prop);
