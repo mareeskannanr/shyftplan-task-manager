@@ -10,7 +10,7 @@ module.exports = {
             if(errors.length > 0) {
                 req.session.errors = errors;
 
-                if(process.env.MODE === 'TEST') {
+                if(process.env.NODE_ENV === 'test') {
                     return res.status(400).json(errors);
                 }
 
@@ -23,12 +23,12 @@ module.exports = {
 
             await utils.createTasksTable(result.rows[0].id);
 
-            if(process.env.MODE === 'TEST') {
+            if(process.env.NODE_ENV === 'test') {
                 return res.status(201).json({message: 'User Created Successfully!'});
             }
 
             req.session.successMsg = 'User Created Successfully!';
-            res.redirect('/signup');
+            res.redirect('/login');
         } catch(err) {
             console.error(err);
             res.status(500).json({messge: 'Sorry, something went wrong!'});

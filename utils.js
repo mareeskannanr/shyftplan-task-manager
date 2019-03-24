@@ -168,7 +168,7 @@ module.exports = {
         };
 
         let message = exceptionMap[error.message];
-        if(process.env.MODE === 'test') {
+        if(process.env.NODE_ENV === 'test') {
             if(message) {
                 return res.status(401).json({messge});
             }

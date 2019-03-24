@@ -9,8 +9,8 @@ module.exports = {
             let dbConnection = await this.getDBConnection();
 
             if(process.env.NODE_ENV != 'production') {
-                let databaseName = process.env.MODE === 'TEST' ? config.TEST_DB : config.TASK_MANAGER;
-                if(process.env.MODE === 'TEST') {
+                let databaseName = process.env.NODE_ENV === 'test' ? config.TEST_DB : config.TASK_MANAGER;
+                if(process.env.NODE_ENV === 'test') {
                     await this.deleteTestDB(dbConnection);
                 }
 
@@ -34,7 +34,7 @@ module.exports = {
         let client = new Client({
             connectionString: process.env.DATABASE_URL || (config.DB_CONNECTION_STRING + config.POSTGRES)
         });
-        
+
         let promise = new Promise((resolve, reject) => {
             client.connect((err, connection) => {
                 if(err) {
