@@ -32,13 +32,13 @@ module.exports = {
 
     async getDBConnection() {
         let client = new Client({
-            connectionString: config.DB_CONNECTION_STRING + config.POSTGRES
+            connectionString: process.env.HEROKU_POSTGRESQL_BLUE_URL || (config.DB_CONNECTION_STRING + config.POSTGRES)
         });
 
         let promise = new Promise((resolve, reject) => {
             client.connect((err, connection) => {
                 if(err) {
-                    reject(new Error(e));
+                    reject(new Error(err));
                 }
     
                 resolve(connection);
@@ -76,7 +76,7 @@ module.exports = {
         let promise = new Promise((resolve, reject) => {
             client.connect((err, connection) => {
                 if(err) {
-                    reject(new Error(e));
+                    reject(new Error(err));
                 }
     
                 resolve(connection);
