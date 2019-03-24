@@ -1,0 +1,9 @@
+{
+    "PORT": 3000,
+    "DB_CONNECTION_STRING": "postgresql://postgres:postgress@localhost:5432/",
+    "POSTGRES": "postgres",
+    "TASK_MANAGER": "task_manager",
+    "TEST_DB": "test_db",
+    "SESSION_SECRET": "shyftplan_task_manager",
+    "COOKIE_KEY": "user_sid"
+}    

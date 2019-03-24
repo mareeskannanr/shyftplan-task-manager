@@ -1,0 +1,1623 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message with data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Message
+    data="success"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col my-auto"
+      >
+        <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-danger"
+          >
+            success
+          </h3>
+        </div>
+      </div>,
+      "className": "row",
+      "style": Object {
+        "marginTop": "10vh",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-danger"
+          >
+            success
+          </h3>
+        </div>,
+        "className": "col my-auto",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h3
+            className="text-danger"
+          >
+            success
+          </h3>,
+          "className": "mx-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "success",
+            "className": "text-danger",
+          },
+          "ref": null,
+          "rendered": "success",
+          "type": "h3",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col my-auto"
+        >
+          <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-danger"
+            >
+              success
+            </h3>
+          </div>
+        </div>,
+        "className": "row",
+        "style": Object {
+          "marginTop": "10vh",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-danger"
+            >
+              success
+            </h3>
+          </div>,
+          "className": "col my-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="text-danger"
+            >
+              success
+            </h3>,
+            "className": "mx-auto",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "success",
+              "className": "text-danger",
+            },
+            "ref": null,
+            "rendered": "success",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenThreeAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Message without data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Message />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col my-auto"
+      >
+        <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>
+      </div>,
+      "className": "row",
+      "style": Object {
+        "marginTop": "10vh",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>,
+        "className": "col my-auto",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>,
+          "className": "mx-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Your Task List is emplty!",
+            "className": "text-info",
+          },
+          "ref": null,
+          "rendered": "Your Task List is emplty!",
+          "type": "h3",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col my-auto"
+        >
+          <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>
+        </div>,
+        "className": "row",
+        "style": Object {
+          "marginTop": "10vh",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>,
+          "className": "col my-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>,
+            "className": "mx-auto",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your Task List is emplty!",
+              "className": "text-info",
+            },
+            "ref": null,
+            "rendered": "Your Task List is emplty!",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenThreeAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Message without props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Message />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col my-auto"
+      >
+        <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>
+      </div>,
+      "className": "row",
+      "style": Object {
+        "marginTop": "10vh",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>,
+        "className": "col my-auto",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>,
+          "className": "mx-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Your Task List is emplty!",
+            "className": "text-info",
+          },
+          "ref": null,
+          "rendered": "Your Task List is emplty!",
+          "type": "h3",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col my-auto"
+        >
+          <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>
+        </div>,
+        "className": "row",
+        "style": Object {
+          "marginTop": "10vh",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>,
+          "className": "col my-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>,
+            "className": "mx-auto",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your Task List is emplty!",
+              "className": "text-info",
+            },
+            "ref": null,
+            "rendered": "Your Task List is emplty!",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenThreeAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Navbar without UserName 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavBar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="navbar-brand"
+        >
+          <img
+            src="images/shyftplan.png"
+            width="150px"
+          />
+        </a>,
+        <div
+          className="ml-auto"
+        >
+          <div
+            className="nav-item dropdown"
+          >
+            <a
+              className="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+            >
+              <b>
+                <span
+                  className="fas fa-2x fa-user"
+                />
+                 
+              </b>
+               
+              <b
+                className="fas fa-caret"
+              />
+            </a>
+            <div
+              className="dropdown-menu"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <a
+                className="dropdown-item"
+                href="/logout"
+              >
+                <b>
+                  <i
+                    className="fas fa-sign-out-alt"
+                  />
+                   Logout
+                </b>
+              </a>
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "navbar navbar-expand-sm bg-light navbar-light justify-content-end",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            src="images/shyftplan.png"
+            width="150px"
+          />,
+          "className": "navbar-brand",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "src": "images/shyftplan.png",
+            "width": "150px",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="nav-item dropdown"
+          >
+            <a
+              className="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+            >
+              <b>
+                <span
+                  className="fas fa-2x fa-user"
+                />
+                 
+              </b>
+               
+              <b
+                className="fas fa-caret"
+              />
+            </a>
+            <div
+              className="dropdown-menu"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <a
+                className="dropdown-item"
+                href="/logout"
+              >
+                <b>
+                  <i
+                    className="fas fa-sign-out-alt"
+                  />
+                   Logout
+                </b>
+              </a>
+            </div>
+          </div>,
+          "className": "ml-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                <b>
+                  <span
+                    className="fas fa-2x fa-user"
+                  />
+                   
+                </b>
+                 
+                <b
+                  className="fas fa-caret"
+                />
+              </a>,
+              <div
+                className="dropdown-menu"
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              >
+                <a
+                  className="dropdown-item"
+                  href="/logout"
+                >
+                  <b>
+                    <i
+                      className="fas fa-sign-out-alt"
+                    />
+                     Logout
+                  </b>
+                </a>
+              </div>,
+            ],
+            "className": "nav-item dropdown",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <b>
+                    <span
+                      className="fas fa-2x fa-user"
+                    />
+                     
+                  </b>,
+                  " ",
+                  <b
+                    className="fas fa-caret"
+                  />,
+                ],
+                "className": "nav-link dropdown-toggle",
+                "data-toggle": "dropdown",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="fas fa-2x fa-user"
+                      />,
+                      " ",
+                      undefined,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fas fa-2x fa-user",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "span",
+                    },
+                    " ",
+                    undefined,
+                  ],
+                  "type": "b",
+                },
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "b",
+                },
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="dropdown-item"
+                  href="/logout"
+                >
+                  <b>
+                    <i
+                      className="fas fa-sign-out-alt"
+                    />
+                     Logout
+                  </b>
+                </a>,
+                "className": "dropdown-menu",
+                "style": Object {
+                  "width": "100%",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <b>
+                    <i
+                      className="fas fa-sign-out-alt"
+                    />
+                     Logout
+                  </b>,
+                  "className": "dropdown-item",
+                  "href": "/logout",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <i
+                        className="fas fa-sign-out-alt"
+                      />,
+                      " Logout",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fas fa-sign-out-alt",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    " Logout",
+                  ],
+                  "type": "b",
+                },
+                "type": "a",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="navbar-brand"
+          >
+            <img
+              src="images/shyftplan.png"
+              width="150px"
+            />
+          </a>,
+          <div
+            className="ml-auto"
+          >
+            <div
+              className="nav-item dropdown"
+            >
+              <a
+                className="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                <b>
+                  <span
+                    className="fas fa-2x fa-user"
+                  />
+                   
+                </b>
+                 
+                <b
+                  className="fas fa-caret"
+                />
+              </a>
+              <div
+                className="dropdown-menu"
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              >
+                <a
+                  className="dropdown-item"
+                  href="/logout"
+                >
+                  <b>
+                    <i
+                      className="fas fa-sign-out-alt"
+                    />
+                     Logout
+                  </b>
+                </a>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "navbar navbar-expand-sm bg-light navbar-light justify-content-end",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              src="images/shyftplan.png"
+              width="150px"
+            />,
+            "className": "navbar-brand",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "src": "images/shyftplan.png",
+              "width": "150px",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="nav-item dropdown"
+            >
+              <a
+                className="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                <b>
+                  <span
+                    className="fas fa-2x fa-user"
+                  />
+                   
+                </b>
+                 
+                <b
+                  className="fas fa-caret"
+                />
+              </a>
+              <div
+                className="dropdown-menu"
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              >
+                <a
+                  className="dropdown-item"
+                  href="/logout"
+                >
+                  <b>
+                    <i
+                      className="fas fa-sign-out-alt"
+                    />
+                     Logout
+                  </b>
+                </a>
+              </div>
+            </div>,
+            "className": "ml-auto",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                >
+                  <b>
+                    <span
+                      className="fas fa-2x fa-user"
+                    />
+                     
+                  </b>
+                   
+                  <b
+                    className="fas fa-caret"
+                  />
+                </a>,
+                <div
+                  className="dropdown-menu"
+                  style={
+                    Object {
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <a
+                    className="dropdown-item"
+                    href="/logout"
+                  >
+                    <b>
+                      <i
+                        className="fas fa-sign-out-alt"
+                      />
+                       Logout
+                    </b>
+                  </a>
+                </div>,
+              ],
+              "className": "nav-item dropdown",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <b>
+                      <span
+                        className="fas fa-2x fa-user"
+                      />
+                       
+                    </b>,
+                    " ",
+                    <b
+                      className="fas fa-caret"
+                    />,
+                  ],
+                  "className": "nav-link dropdown-toggle",
+                  "data-toggle": "dropdown",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="fas fa-2x fa-user"
+                        />,
+                        " ",
+                        undefined,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fas fa-2x fa-user",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
+                      },
+                      " ",
+                      undefined,
+                    ],
+                    "type": "b",
+                  },
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-caret",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "b",
+                  },
+                ],
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="dropdown-item"
+                    href="/logout"
+                  >
+                    <b>
+                      <i
+                        className="fas fa-sign-out-alt"
+                      />
+                       Logout
+                    </b>
+                  </a>,
+                  "className": "dropdown-menu",
+                  "style": Object {
+                    "width": "100%",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <b>
+                      <i
+                        className="fas fa-sign-out-alt"
+                      />
+                       Logout
+                    </b>,
+                    "className": "dropdown-item",
+                    "href": "/logout",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <i
+                          className="fas fa-sign-out-alt"
+                        />,
+                        " Logout",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "fas fa-sign-out-alt",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      " Logout",
+                    ],
+                    "type": "b",
+                  },
+                  "type": "a",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenThreeAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`should render correctly with no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Message />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col my-auto"
+      >
+        <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>
+      </div>,
+      "className": "row",
+      "style": Object {
+        "marginTop": "10vh",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>,
+        "className": "col my-auto",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>,
+          "className": "mx-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Your Task List is emplty!",
+            "className": "text-info",
+          },
+          "ref": null,
+          "rendered": "Your Task List is emplty!",
+          "type": "h3",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col my-auto"
+        >
+          <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>
+        </div>,
+        "className": "row",
+        "style": Object {
+          "marginTop": "10vh",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>,
+          "className": "col my-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>,
+            "className": "mx-auto",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your Task List is emplty!",
+              "className": "text-info",
+            },
+            "ref": null,
+            "rendered": "Your Task List is emplty!",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenThreeAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`should render correctly with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Message />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="col my-auto"
+      >
+        <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>
+      </div>,
+      "className": "row",
+      "style": Object {
+        "marginTop": "10vh",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="mx-auto"
+        >
+          <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>
+        </div>,
+        "className": "col my-auto",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h3
+            className="text-info"
+          >
+            Your Task List is emplty!
+          </h3>,
+          "className": "mx-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Your Task List is emplty!",
+            "className": "text-info",
+          },
+          "ref": null,
+          "rendered": "Your Task List is emplty!",
+          "type": "h3",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="col my-auto"
+        >
+          <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>
+        </div>,
+        "className": "row",
+        "style": Object {
+          "marginTop": "10vh",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="mx-auto"
+          >
+            <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>
+          </div>,
+          "className": "col my-auto",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="text-info"
+            >
+              Your Task List is emplty!
+            </h3>,
+            "className": "mx-auto",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your Task List is emplty!",
+              "className": "text-info",
+            },
+            "ref": null,
+            "rendered": "Your Task List is emplty!",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenThreeAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
