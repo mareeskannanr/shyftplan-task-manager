@@ -8,7 +8,7 @@ module.exports = {
         try {
             let dbConnection = await this.getDBConnection();
 
-            if(process.env.MODE != 'PROD') {
+            if(process.env.NODE_ENV != 'production') {
                 let databaseName = process.env.MODE === 'TEST' ? config.TEST_DB : config.TASK_MANAGER;
                 if(process.env.MODE === 'TEST') {
                     await this.deleteTestDB(dbConnection);
