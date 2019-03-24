@@ -1,6 +1,8 @@
 
 
-A Simple Task Manager Application using Node.js as BackEnd, React.js as FrontEnd, PostgreSQL database.
+A Simple Task Manager Application using Node.js as BackEnd, React.js as FrontEnd, PostgreSQL database. App deployed to 
+
+https://shyftplan-task-manager.herokuapp.com/ . You can check it.
 
 Pull this repository to your machine.
 
