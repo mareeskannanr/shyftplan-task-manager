@@ -89,7 +89,12 @@
                         <div class="alert alert-danger">
                             <span><b><%= errors %></b></span>
                         </div>
-                    <% } %> 
+                    <% } %>     
+                    <% if(successMsg) { %>
+                        <div class="alert alert-success">
+                            <span><b><%= successMsg %></b></span><br>
+                        </div>
+                    <% } %>
                 </form>
             </div>                    		                            
         <% } else { %>
