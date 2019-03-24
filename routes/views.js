@@ -6,8 +6,11 @@ const { isAuthenticated } = require('../middleware');
 
 router.route('/login').get((req, res) => {
     let errors = req.session.errors || '';
+    let successMsg = req.session.successMsg || '';
     delete req.session.errors;
-    res.render('login.html', { type: 'login', errors });
+    delete req.session.successMsg;
+
+    res.render('login.html', { type: 'login', errors, successMsg });
 });
 
 router.route('/logout').get((req, res) => {
