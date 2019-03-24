@@ -34,13 +34,7 @@ module.exports = {
         let client = new Client({
             connectionString: process.env.DATABASE_URL || (config.DB_CONNECTION_STRING + config.POSTGRES)
         });
-
-        console.log(process.env.DATABASE_URL);
-        console.log('*********************');
-        for(let prop in process.env) {
-            console.log(prop);
-        }
-
+        
         let promise = new Promise((resolve, reject) => {
             client.connect((err, connection) => {
                 if(err) {
