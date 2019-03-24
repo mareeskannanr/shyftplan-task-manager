@@ -14,7 +14,7 @@ By default server is running on port 3000, to use other ports use **_PORT=${your
 
 Goto browser and Enter the URL **http://localhost:${your_port or 3000}**
 
-To run server tests, navigate to node-server folder use **_npm test_**
+To check server side test cases, run command **_npm test_**
 
 User Interface already integrated with server, source code of it can be found in the folder **ui**
 
